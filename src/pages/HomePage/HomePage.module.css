@@ -1,0 +1,107 @@
+/* General styles */
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  } */
+
+.homepage {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f8f9fa;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.auth_buttons .login_btn,
+.auth_buttons .register_btn {
+  margin-left: 15px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.login_btn {
+  background-color: transparent;
+  border: 1px solid #333;
+}
+
+.register_btn {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Main Section */
+.main_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+  background-color: #fff;
+}
+
+.text_section {
+  max-width: 50%;
+}
+
+.text_section h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.text_section h1 span {
+  background-color: yellow;
+}
+
+.text_section p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.get_started_btn {
+  padding: 15px 30px;
+  background-color: #ffcc00;
+  border: none;
+  cursor: pointer;
+}
+
+/* Image Section */
+.image_section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Stats Section */
+.stats_section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 40px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.stat_item h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stat_item p {
+  margin-top: 10px;
+}
